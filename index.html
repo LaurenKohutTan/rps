@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rock Paper Scissors Project</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>Rock Paper Scissors</h1>
+
+    <div class="teachers">
+      <button onclick="play('Mark Galesi')">
+        <img id="Mark Galesi" src="Galesi.png" height="100px">
+      </button>
+
+      <button onclick="play('Lauren Tan')">
+        <img id="Lauren Tan" src="Tan.png" height="100px">
+      </button>
+
+      <button onclick="play('Timothy Meyer')">
+        <img id="Timothy Meyer" src="Meyer.jpg" height="100px">
+      </button>
+    </div>
+
+    <p id="output"></p>
+    <p id="result"></p>
+
+    <div class="stupidStuff">
+      <p id="score">Galesi, Tan, Meyer, shoot! Pick a teacher!</p>
+    </div>
+
+    <button class="resetBtn" onclick="reset()">Reset Game</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
