@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rock Paper Scissors Project</title>
+    <link href="styles2.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- This HTML is written for you! 
+        Just write the javascript to go along with it!
+        Add your own images of rock paper and scissors and reference their names in the src=
+    -->
+      <p>Human:<span id="humanscore">0</span> Computer: <span id="computerscore">0</span></p>
+    <h1>Tree Water Fire</h1>
+      <p>Tree, water, fire, shoot! Pick TWO choices!</p>
+      <button onclick="buttonclicked('t')"><img src="t.jpg"  height=100px></button>
+    
+      <button onclick="buttonclicked('w')"><img src="w.jpg"  height=100px></button>
+      <button onclick="buttonclicked('f')"><img src="f.jpg" height=100px></button>
+
+      <p id="playerchoices"></p>
+      <div id="playerimages"></div>
+      <p id="computerchoices"></p>
+      <div id="computerimages"></div>
+
+      <p id="part2instructions"></p>
+      <p id="results"></p>
+    <button onclick="reset('no')">Play Again</button>
+      <button onclick="reset('yes')">Reset Game</button>
+    
+    <script src="script2.js"></script>
+  </body>
+</html>
